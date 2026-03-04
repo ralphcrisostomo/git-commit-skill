@@ -3,7 +3,7 @@ name: git-commit
 description: Use when committing changes, staging files, or finishing work in a git worktree. Covers smart commit, multi-concern splitting, sensitive-file guarding, and worktree merge.
 ---
 
-# Git Commit Skill
+# Git Commit
 
 ## Sensitive File Guard
 
