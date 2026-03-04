@@ -1,4 +1,4 @@
-# git-commit-skill
+# git-commit
 
 A project-agnostic AI skill for safe, structured git commits. Designed for [Claude Code](https://claude.ai/code) and compatible with any AI agent that loads `.claude/skills/` or `.agents/skills/` files.
 
