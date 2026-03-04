@@ -44,7 +44,7 @@ Stage tracked modifications and deletions only. Do not stage untracked files aut
 
 ### 4. Analyse for multi-concern splitting
 
-Group changed files by directory or feature area. If changes span unrelated concerns (e.g. a bug fix and a new feature), suggest splitting into separate commits. Wait for user confirmation before proceeding.
+Group changed files by directory or feature area. If changes span unrelated concerns (e.g. a bug fix and a new feature), split into separate commits automatically.
 
 ### 5. Generate commit message
 
@@ -90,6 +90,7 @@ Rules: commit before merging, always merge into `main`, never delete the branch 
 
 ## Rules
 
+- **Proceed without confirmation** — do not ask the user to approve the commit message or confirm before committing. Stage, generate the message, and commit in one flow.
 - Never commit sensitive files (run the guard first).
 - Never amend a published commit — create a new one.
 - Never force-push `main`.
